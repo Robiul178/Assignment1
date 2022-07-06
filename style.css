@@ -50,7 +50,29 @@ body {
     font-size: 20px;
 }
 
-.price {
+.pricing {
     display: flex;
     justify-content: center;
+    padding: 100px;
+}
+
+.price {
+    padding: 40px;
+    font-size: 35px;
+    font-weight: 800;
+    color: rgba(85, 85, 88, 0.781);
+    background-color: rgba(160, 161, 157, 0.116);
+    border-radius: 10px;
+
+}
+
+.price-1 {
+    margin-right: 35px;
+}
+
+.price-2 {
+    margin-right: 35px;
+    border: 3px solid red;
+    border-radius: 10px;
+    color: red;
 }
