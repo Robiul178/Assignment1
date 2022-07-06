@@ -10,7 +10,7 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    height: 750px;
+    height: 800px;
     margin-top: -20px;
     display: flex;
     justify-content: center;
@@ -18,16 +18,39 @@ body {
 
 }
 
+.hero-text h1 {
+    font-size: 80px;
+    letter-spacing: 0.1px;
+    font-weight: 700;
+    line-height: 80px;
+    word-spacing: 0.1px;
+}
+
+.hero-text p {
+    font-size: 25px;
+    margin: auto;
+    position: relative;
+    bottom: 40px;
+
+
+}
 
 .hero-text {
     text-align: center;
     color: rgb(255, 255, 255);
+    padding-bottom: 100px;
 }
 
 .button {
     text-decoration: none;
-    background-color: orangered;
+    background-color: rgb(175, 86, 53);
     color: white;
-    padding: 10px 20px;
+    padding: 20px 30px;
     border-radius: 5px;
+    font-size: 20px;
+}
+
+.price {
+    display: flex;
+    justify-content: center;
 }
