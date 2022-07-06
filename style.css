@@ -97,7 +97,7 @@ body {
     margin-bottom: 30px;
 }
 
-input {
+.input-data input {
     border: none;
     border-bottom: 2px solid rgba(145, 142, 142, 0.637);
     padding: 10px 400px;
@@ -175,4 +175,33 @@ input {
 .btn-3 {
     position: relative;
     top: 15px;
+}
+
+/*5th Section*/
+
+.box input {
+    border: none;
+    padding: 10px 30px;
+    font-size: 20px;
+    position: relative;
+    top: 120px;
+    left: 230px;
+}
+
+.box input[type="text"] {
+    background-color: #D9D9D9;
+    padding-right: 100px;
+}
+
+.box input[type="submit"] {
+    background-color: #FF5959;
+    color: #fff;
+}
+
+
+.box {
+    background-color: #FFF4D6;
+    width: 950px;
+    height: 250px;
+    margin: 0 auto;
 }
