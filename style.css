@@ -161,6 +161,7 @@ body {
 
 .img img {
     border-radius: 10px;
+    height: 500px;
 }
 
 .text h1 {
