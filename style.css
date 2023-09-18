@@ -115,6 +115,43 @@ body {
     }
 }
 
+.section-1 {
+    background-color: #000;
+    color: white;
+}
+
+.hero {
+    display: flex;
+}
+
+.hero-left {
+    width: 50%;
+}
+
+.hero-right {
+    margin-top: 25%;
+}
+
+.hero-right h1 {
+    font-size: 60px;
+}
+
+.hero-right p {
+    font-size: 20px;
+    color: #b79e12;
+}
+
+button {
+    padding: 15px;
+    background-color: #b79e12;
+    font-size: 15px;
+}
+
+button:hover {
+    background-color: black;
+    color: #EDF5F6;
+}
+
 /*2nd Section */
 
 .pricing {
